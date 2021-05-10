@@ -9,6 +9,7 @@
   </head>
 
   <body>
+    <div id="header"></div><!-- /#header -->
     @yield('content')
     <!-- React JS -->
     <script src="{{ asset('js/app.js') }}" defer></script>
